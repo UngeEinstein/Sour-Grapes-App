@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Sour Grapes",
+    "slug": "wineApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/moet.png",
+    "splash": {
+      "image": "./assets/moet.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/moet.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/moet.png"
+    },
+    "description": "This is a wine app created with React Native. The purpose of this app is to let the users find more information about a wine and give their own review."
+  }
+}
